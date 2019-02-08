@@ -10,5 +10,3 @@ apk add --no-cache su-exec
 cp /build/entrypoint.sh /patron-web/entrypoint.sh
 cd /patron-web
 rm -R /build
-npm install --only=production
-
